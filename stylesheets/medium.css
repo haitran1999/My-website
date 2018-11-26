@@ -1,0 +1,79 @@
+.logo {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+}
+.top1 .menu ul li a {
+  padding: 15px 12px;
+}
+.menu{
+  grid-column: span 9;
+}
+.typing h2{
+  font-size: 22px;
+}
+.top1 .left img{
+  grid-area: image; 
+}
+.typing h2{
+  grid-area: typing;
+}
+.explore{
+  grid-area: button;
+  padding: 13px 28px;
+  font-size: 15px;
+}
+.float{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  'image'
+  'typing' 
+  'button';
+}
+.float{
+  padding-bottom: 50px;
+}
+.top1 .menu ul li a{
+  font-size: 14px;
+}
+.layout {
+  padding: 100px 70px;
+}
+.timeline{
+  padding: 100px 50px;
+}
+.timeline ul li{
+  grid-gap: 60px;
+}
+.timeline span{
+  font-size: 15px;
+  padding: 13px 30px;
+}
+.timeline .text {
+  font-size: 15px;
+}
+.story .section{
+  padding: 0;
+  margin-top: 0px;
+}
+div#hinhnen img{
+  max-width: 80%;
+}
+.section.five img{
+  width: 100%;
+}
+form{
+  width: 50%;
+}
+.send a{
+  font-size: 16px;
+}
+.footer{
+  font-size: 16px;
+}
+.logo img {
+  cursor: pointer;
+  animation: appear 1.5s;
+  max-height: 50%;
+}
